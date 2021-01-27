@@ -1,0 +1,82 @@
+
+ @media only screen and (max-width: 415px) {
+    html{
+        font-size: 15px;
+    }
+    .started__btn{
+        width: 90%;
+        margin-left: 1rem;
+    }
+    
+  }
+  @media only screen and (max-width: 991px) {
+    html{
+        font-size: 15px;
+    }
+    .navbar-collapse,
+    .dropdown-menu{
+        background-color: #ffc161;
+        margin-top: 1rem;
+    }
+    .dropdown-item{
+        margin-left: 2rem;
+    }
+    .sign-in,
+    .sign-up,
+    .header__img{
+        display: none;
+    }
+    
+  }
+  
+  @media only screen and (min-width: 991px) {
+    html{
+        font-size: 16px;
+    }
+    .dropdown-item{
+        color: grey;
+    }
+    .dropdown-item:hover{
+        background-color: #16215c;
+        color: white;
+    }
+    .navbar-light .navbar-nav .nav-link{
+        margin-right: 1.5rem;
+    }
+    .navbar{
+        padding-left: 6rem;
+    }
+    .navbar-collapse{
+        margin-left: 3rem;
+    }
+    .sign-in,
+    .sign-up{
+        position: absolute;
+        right: 30px;
+    }
+    .sign-in{
+        top: 50px;
+    }
+    .sign-up{
+        top: 100px;
+    }
+    .header__img{
+        width: 700px;
+        left: 300px;
+    }
+    .whatwedo span{
+        margin: 2rem 15rem 3rem 15rem;
+    }
+  }
+  @media only screen and (min-width: 1300px){
+    .sign-in,
+    .sign-up{
+        position: unset;
+        
+    }
+    .header__img{
+        width: 850px;
+        left: 400px;
+    }
+  }
+  

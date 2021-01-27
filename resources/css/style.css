@@ -1,0 +1,227 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif
+}
+html{
+    font-size: 15px;
+    
+    scroll-behavior: smooth;
+    
+}
+/* ===========NAVBAR============ */
+.navbar{
+    padding-top: 2.5rem;
+    
+}
+.bg-light{
+    background-color: unset!important;
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.dropdown-item:hover,
+.dropdown-item:active
+{
+    background-color: unset;
+}
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown>.dropdown-toggle:active {
+/*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.dropdown-item,
+.btn{
+    color: white;
+    font-weight: 600;
+    padding: 1rem;
+    
+}
+.header .sign-in,
+.header .sign-up{
+    background-color: unset;
+    transition: all 0.5s;
+    margin-right: 2rem;
+    width: 140px;
+    height: 45px;
+}
+.sign-in{
+    font-weight: 550;
+    margin-left: 3.2rem;
+}
+.header .sign-up{
+    border: 1px solid white;
+    
+}
+.header .sign-in:hover{
+    border: 1px solid white;
+    color: white;
+}
+.header .sign-up:hover{
+    background-color: #fd6975;
+    border: none;
+    color: white;
+}
+/*============= HEADER-CONTENT============= */
+.header{
+    background-image: url("../img/header-slide/bg.png");
+    background-size: cover;
+}
+.header p,
+.header .title{
+    color: white;
+}
+.header .title{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.header p{
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding: 1.5rem 0 1.5rem 0;
+}
+.btn{
+    background-color: #fd6975;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    /* width: 160px */
+}
+
+.header__content{
+    padding-top:7rem;
+    padding-bottom:7rem;
+    z-index: 1;
+    position: relative;
+}
+
+.header__img{
+    position: absolute;
+    top: 125px;
+    left: 385px;
+    transition: all 02s;
+    /* width: 60%; */
+    z-index: 0;
+}
+/* ======WHAT WE DO================ */
+.whatwedo{
+    background-color: white;
+    position: relative;
+    z-index: 2;
+    padding: 5rem 0 3rem 0;
+}
+.title {
+    color: #16215c;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
+    
+}
+span{
+    color: #747474;
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin: 2rem 0 5rem 0;
+}
+i{
+    font-size: 2.5rem;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 0;
+}
+.icon{
+   
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background-color: #3639a4;
+    position: relative;
+    border-radius: 50%;
+    margin: 0 auto;
+    z-index: 0;
+    line-height: 80px;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.whatwedo .icon::after{
+    content: "";
+    position: absolute;
+    left: 46px;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s;
+    background-color: #75e8f0;
+    border-radius: 50%;
+    z-index: -1;
+}
+p{
+    color: #747474;
+}
+h2{
+    font-weight: 550;
+}
+p,
+h2{
+    text-align: center;
+}
+.box{
+    margin-bottom: 2rem;
+}
+.box:hover{
+    cursor: pointer;
+}
+.whatwedo .box:hover .icon::after{
+    cursor: pointer;
+    transform: scale(2);
+    left: 20px;
+    bottom: 20px;
+}
+/* ================HOW TO GET STARTED========= */
+.get-started{
+    background-image: url('/resources/img/bg/bg.png');
+    /* height: 100vh;s */
+    /* background-size: inherit; */
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.get-started .title{
+    
+    margin-bottom: 4rem;
+}
+.get-started .box{
+     border: 4px solid #fff;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 3rem 0 3rem 0;
+}
+.get-started .icon{
+    width: 100px;
+    height: 100px;
+    background-color: unset;
+    border: 1px solid #3639a4;
+    transition: all 0.5s;
+}
+.get-started i{
+    color: #3639a4;
+}
+.get-started .box:hover{
+    border: 4px solid #3639a4;
+}
+.get-started .box:hover .icon{
+    border: 4px solid #3639a4;
+}
