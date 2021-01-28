@@ -10,6 +10,9 @@ html{
     scroll-behavior: smooth;
     
 }
+.padding{
+    padding-top: 10rem;
+}
 /* ===========NAVBAR============ */
 .navbar{
     padding-top: 2.5rem;
@@ -80,7 +83,7 @@ html{
 .header .title{
     color: white;
 }
-.header .title{
+.title{
     font-weight: 700;
     font-size: 3rem;
 }
@@ -118,14 +121,11 @@ html{
     z-index: 2;
     padding: 5rem 0 3rem 0;
 }
-.title {
+.whatwedo .title {
     color: #16215c;
     text-align: center;
-    font-weight: 700;
-    font-size: 3rem;
-    
 }
-span{
+.intro{
     color: #747474;
     display: block;
     text-align: center;
@@ -172,10 +172,10 @@ p{
     color: #747474;
 }
 h2{
-    font-weight: 550;
+    font-weight: 600;
+    text-align: center;
 }
-p,
-h2{
+.whatwedo p{
     text-align: center;
 }
 .box{
@@ -199,9 +199,11 @@ h2{
     padding-bottom: 2rem;
 }
 .get-started .title{
-    
+    color: #16215c;
+    text-align: center;
     margin-bottom: 4rem;
 }
+
 .get-started .box{
      border: 4px solid #fff;
     background-color: #fff;
@@ -224,4 +226,30 @@ h2{
 }
 .get-started .box:hover .icon{
     border: 4px solid #3639a4;
+}
+.get-started p{
+    text-align: center;
+}
+/* ============WHY US=============== */
+
+.why__img{
+    width: 60%;
+    margin: 0 20% 0 20%;
+}
+.img-shape{
+    background-image: url("../img/share/bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.why-us .intro{
+    margin-bottom: 1rem;
+    text-align: unset;
+}
+.text-shape{
+    margin: auto 0;
+}
+.why-us .title{
+    text-align: unset;
+    color: #16215c;
 }
