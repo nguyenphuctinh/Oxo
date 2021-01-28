@@ -67,6 +67,9 @@
     .whatwedo span{
         margin: 2rem 15rem 3rem 15rem;
     }
+    .right__why__content{
+        margin-left: 8.3333333%;
+    }
   }
   @media only screen and (min-width: 1300px){
     .sign-in,
