@@ -63,7 +63,7 @@ html{
 }
 .header .sign-up{
     border: 1px solid white;
-    
+    /* background-color: #fd6975; */
 }
 .header .sign-in:hover{
     border: 1px solid white;
@@ -72,6 +72,7 @@ html{
 .header .sign-up:hover{
     background-color: #fd6975;
     border: none;
+    cursor: pointer;
     color: white;
 }
 /*============= HEADER-CONTENT============= */

@@ -59,6 +59,7 @@
     }
     .sign-up{
         top: 100px;
+        z-index: 2;
     }
     .header__img{
         width: 700px;
